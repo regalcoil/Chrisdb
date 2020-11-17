@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<title>Chris's Samples</title>
+
+	<meta charset="UTF-8">
+
+	<script
+  		src="https://code.jquery.com/jquery-3.3.1.js"
+  		integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+		crossorigin="anonymous">
+	</script>
+
+</head>
+
+<body>
+
+	<div style ="width: 100%;" id="title">
+		<img style ="width: 100%;" alt="Title Image" src="title.jpg">
+	</div>
+
+	
+	<div style="width: 100%; text-align: center;" id="console">
+		<a href="world.xlsx"> Download my spreadsheet of global geographical information instantly... </a>
+	</div>
+		
+
+	<script>
+		var tally = 130;
+
+		for (i = 93; i<=tally; i++) {
+			$("#console").append('<img style="width: 100%;" alt="image" src="screenshots/' + i + '.jpg" >');
+		}
+	</script>
+
+</body>
+
+</html>
